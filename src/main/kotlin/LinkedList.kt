@@ -2,7 +2,6 @@ class LinkedList<T> {
     var head: Node<T>? = null
     var tail: Node<T>? = null
 
-
     /** Добавление элемента в голову связного списка. */
     fun push(x: T) {
         val node = Node(x)
