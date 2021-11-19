@@ -8,5 +8,4 @@ fun main() {
     println(list.head)
     list.pop()
     println(list.head)
-
 }
