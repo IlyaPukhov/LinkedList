@@ -11,7 +11,7 @@ class LinkedList<T> {
     /** Добавление элемента в голову связного списка. */
     fun push(x: T) {
         val node = Node(x)
-        if (head == null) {   //если список пуст, то голова и хвост - это один узел
+        if (isEmpty) {   //если список пуст, то голова и хвост - это один узел
             head = node
             tail = node
         } else {
@@ -22,7 +22,7 @@ class LinkedList<T> {
     /** Добавление элемента в хвост связного списка. */
     fun addTail(x: T) {
         val node = Node(x)
-        if (head == null) {    //если список пуст, то голова и хвост - это один узел
+        if (isEmpty) {    //если список пуст, то голова и хвост - это один узел
             head = node
             tail = node
         } else {
